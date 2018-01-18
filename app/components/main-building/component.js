@@ -1,11 +1,9 @@
-import Component from '@ember/component';
+import Group from '../svg-objects/group/component';
 
-export default Component.extend({
-
-  tagName: 'svg',
-
-  width: 100,
-  height: 200,
-  fill: '#333'
+export default Group.extend({
+  
+  click() {
+    this.thing.animate({height: 50}, 1000);
+  }
 
 });

@@ -1,0 +1,16 @@
+@import "pod-styles";
+
+html, body { margin:0; padding:0; overflow:hidden }
+
+body {
+  background-color: #b7bf76;
+}
+
+body > div {
+  height: 100vh;
+}
+
+svg {
+  width: 100%;
+  height: 100%
+}
