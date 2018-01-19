@@ -10,7 +10,7 @@ export default Ellipse.extend({
   ry: 40,
 
   click() {
-    this.thing.animate({rx: 1900, ry: 1900}, 2000);
+    this.thing.animate({rx: 600, ry: 600}, 2000, mina.bounce);
   },
 
   didInsertElement() {
